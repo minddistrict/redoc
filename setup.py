@@ -22,10 +22,7 @@ setup(
     packages=find_packages(exclude=['docs', 'tests*']),
     include_package_data=True,
     zip_safe=False,
-    use_scm_version=True,
-    setup_requires=[
-        'setuptools_scm',
-    ],
+    version='2.0.dev0',
     install_requires=[
         'jinja2 >= 2.4',
         'jsonschema >= 3.0',
