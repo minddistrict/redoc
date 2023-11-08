@@ -22,7 +22,7 @@ setup(
     packages=['sphinxcontrib.redoc'],
     include_package_data=True,
     zip_safe=False,
-    version='2.0+md.1',
+    version='2.0+md.2.dev0',
     install_requires=[
         'jinja2 >= 2.4',
         'jsonschema >= 3.0',
